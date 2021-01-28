@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.container.text-white{
+    background-color: black;
+}
+
+div.row ul#alvo{
+   
+    width: 60%;
+  
+
+}
+div.row ul#alvo li {
+    margin-bottom: 10px;
+}
+
+.filtrar{
+    
+    display: none !important;
+}
+div.card.bg-info{
+    border-radius: 30px;
+    
+}
+.bg-info{
+    background-color: black !important;
+}
+li.d-flex.flex-column.bg-primary{
+    box-shadow: 5px -10px 30px;
+    background-color: black ;
+    border-radius: 30px;
+    
+}
+img.card-img-top{
+    border-radius: 25px;
+    padding: 20px;
+}
+.btn-primary{
+    background-color: black;
+    border-color: white;
+}
+
+@media only screen and(min-width:320px){
+    h4.card-title{
+        margin-left: 5%!important;
+    }
+    div.card-biody{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        
+    }
+}
+
+@media only screen and(min-width:320px ) and (max-width:400px){
+    h4.card-title{
+        margin-left:5%!important;
+    }
+    div.card-biody{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        
+    }
+}
